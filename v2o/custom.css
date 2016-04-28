@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #eee;
 }
 
+#plan .panel {
+    transition: .4s;
+}
+
 #plan .panel:hover {
     box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.75);
 }
@@ -110,6 +114,7 @@ section {
     text-decoration: underline;
 }
 
+/* Responsive embedded video container */
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -127,6 +132,10 @@ section {
 
 #why-join .panel {
     height: 250px;
+    transition: .4s;
+}
+#why-join .panel:hover {
+    box-shadow: 2px 2px 10px 2px #ccc;
 }
 
 /* For scroll-sensitive navigation */
