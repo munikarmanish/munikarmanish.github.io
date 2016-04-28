@@ -149,3 +149,28 @@ section {
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+/* Social buttons */
+.fa {
+    border-radius: 20px;
+    transition: .4s;
+    width: 40px;
+    padding: 5px 0;
+    vertical-align: bottom;
+    padding: auto auto;
+}
+.fa:hover {
+    box-shadow: 2px 2px 4px 1px #000;
+}
+.fa-facebook:hover {
+    background: white;
+    color: blue;
+}
+.fa-twitter:hover {
+    background: white;
+    color: lightblue;
+}
+.fa-youtube:hover {
+    background: white;
+    color: red;
+}
