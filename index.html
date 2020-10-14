@@ -9,8 +9,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 
   <title>Manish Munikar</title>
 </head>
@@ -29,14 +29,17 @@
           <li class="nav-item active">
             <a class="nav-link" href="/">About <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="/projects">Projects</a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <a class="nav-link" href="//medium.com/@munikarmanish">Blog</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contact">Contact</a>
+            <a target="_blank" class="nav-link" href="./manish-munikar-cv.pdf">CV</a>
           </li>
         </ul>
       </div>
@@ -44,35 +47,32 @@
   </nav>
 
   <!-- Introduction, photo, and contact -->
-  <section class="section bg-light py-4">
+  <section class="section bg-light py-2">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 my-auto">
-          <img src="/img/manish.png" class="rounded-circle img-fluid mx-auto d-block" style="max-height: 200px">
+        <div class="col-md-2 my-auto">
+          <img src="/img/manish.png" class="rounded-circle img-fluid mx-auto d-block" style="max-height: 150px">
         </div>
-        <div class="col-md-9 my-auto p-4" style="text-align:left;">
+        <div class="col-md-10 my-auto p-4" style="text-align:left;">
           <h1>Manish <strong>Munikar</strong></h1>
-          <p>Computer Science (PhD) student at <a href="://uta.edu">UT Arlington</a></p>
-          <!-- <p>Currently, I'm working in
-            <a href="//archanalytics.ai">Arch Analytics</a>
-            as a <strong>Data Scientist</strong>.</p> -->
-          <p class="pt-2">
-            <a class="btn btn-sm btn-outline-dark" href="mailto:munikarmanish@gmail.com" title="Email">
+          <p>Computer Science PhD student at <a target="_blank", href="//uta.edu">UT Arlington</a></p>
+          <p class="pt-0">
+            <a target="_blank" class="btn btn-sm btn-outline-dark" href="mailto:munikarmanish@gmail.com" title="Email">
               Email <i class="fas fa-envelope"></i>
             </a>
-            <a class="btn btn-sm btn-outline-dark" href="//linkedin.com/in/munikarmanish" title="LinkedIn">
+            <a target="_blank" class="btn btn-sm btn-outline-dark" href="//linkedin.com/in/munikarmanish" title="LinkedIn">
               <i class="fab fa-linkedin"></i>
             </a>
-            <a class="btn btn-sm btn-outline-dark" href="//github.com/munikarmanish" title="GitHub">
+            <a target="_blank" class="btn btn-sm btn-outline-dark" href="//github.com/munikarmanish" title="GitHub">
               <i class="fab fa-github"></i>
             </a>
-            <a class="btn btn-sm btn-outline-dark" href="//fb.com/munikarmanish" title="Facebook">
+            <a target="_blank" class="btn btn-sm btn-outline-dark" href="//fb.com/munikarmanish" title="Facebook">
               <i class="fab fa-facebook"></i>
             </a>
-            <a class="btn btn-sm btn-outline-dark" href="//twitter.com/munikarmanish" title="Twitter">
+            <a target="_blank" class="btn btn-sm btn-outline-dark" href="//twitter.com/munikarmanish" title="Twitter">
               <i class="fab fa-twitter"></i>
             </a>
-            <a class="btn btn-sm btn-outline-dark" href="//instagram.com/munikarmanish" title="Instagram">
+            <a target="_blank" class="btn btn-sm btn-outline-dark" href="//instagram.com/munikarmanish" title="Instagram">
               <i class="fab fa-instagram"></i>
             </a>
           </p>
@@ -83,16 +83,24 @@
 
   <section class="p-4">
     <div class="container">
+      <p class="notice">
+        <span class="fa fa-flag" style="color:red"></span>
+        I'm actively looking for summer PhD internships. If you're interested,
+        please refer to
+        <a target="_blank" href="./manish-munikar-cv.pdf">my CV</a>.
+      </p>
       <header>
-        <h5><strong>Short Bio</strong></h5>
+        <h5><strong>About Me</strong></h5>
       </header>
-      <p>I'm a computer science PhD student at UTA, currently researching in improving the performance
-        of virtualized container networks in commodity operating systems.</p>
+      <p>
+        I'm a computer science PhD student at UTA, currently researching in
+        the field of network virtualization for cloud and distributed systems.
+      </p>
       <p>Away from keyboard, I enjoy playing football (soccer) ⚽,
         trekking 🚶,
-        <a href="//facebook.com/photo.php?fbid=10208511250194990&set=p.10208511250194990&type=3">sketching 🎨</a>,
-        <a href="//youtube.com/watch?v=Ns90PtpXn4A">singing 🎤</a>,
-        <a href="//youtube.com/watch?v=PXg_6wOEgys">playing flute 🎶</a>,
+        <a target="_blank" href="//facebook.com/photo.php?fbid=10208511250194990&set=p.10208511250194990&type=3">sketching 🎨</a>,
+        <a target="_blank" href="//youtube.com/watch?v=Ns90PtpXn4A">singing 🎤</a>,
+        <a target="_blank" href="//youtube.com/watch?v=PXg_6wOEgys">playing flute 🎶</a>,
         and playing with my cat 🐱.
       </p>
 
@@ -102,9 +110,12 @@
         <h5><strong>Research Interests</strong></h5>
       </header>
       <p>
-        My areas of research interest include <strong>data science</strong>,
-        <strong>machine learning</strong>, <strong>computer networks</strong>, and
-        <strong>distributed and cloud systems</strong>.
+        My areas of research interest include
+        <strong>data science</strong>,
+        <strong>machine learning</strong>,
+        <strong>big data technology</strong>,
+        <strong>computer networks</strong>, and
+        <strong>distributed/cloud systems</strong>.
       </p>
 
       <hr>
@@ -114,9 +125,9 @@
       </header>
       <ul>
         <li class="mb-2">
-          <strong>
-            <a href="//uta.edu">University of Texas at Arlington</a>
-          </strong> (2020—Present)
+          <strong><a target="_blank" href="//uta.edu">University of Texas at Arlington</a></strong>
+          <span class="education-address">Arlington, TX</span>
+          (2020—Present)
           <br><em>PhD in Computer Science</em>
           <ul>
             <li>Supervisor: Prof. Jia Rao</li>
@@ -124,10 +135,12 @@
         </li>
         <li class="mb-2">
           <strong>
-            <a href="//pcampus.edu.np">Pulchowk Campus</a>,
-            <a href="//ioe.edu.np">Institute of Engineering</a>,
-            <a href="//tu.edu.np">Tribhuvan University</a>
-          </strong> (2013—2017)
+            <!-- <a href="//pcampus.edu.np">Pulchowk Campus</a>, -->
+            <!-- <a href="//ioe.edu.np">Institute of Engineering</a>, -->
+            <a target="_blank" href="//tu.edu.np">Tribhuvan University</a>
+          </strong>
+          <span class="education-address">Kathmandu, Nepal</span>
+          (2013—2017)
           <br><em>Bachelors in Computer Engineering</em> (Grade: 80.68%)
           <ul>
             <li>Supervisor: Prof. Dr. Shashidhar Ram Joshi</li>
@@ -142,7 +155,24 @@
       </header>
       <ul>
         <li class="mb-2">
-          <strong><a href="//docsumo.com">Docsumo</a></strong> (July 2018—December 2019)
+          <strong><a target="_blank" href="//cse.uta.edu">University of Texas at Arlington</a></strong>
+          (Jan 2020—Present)
+          <br><em>Graduate Research Assistant</em>
+          <ul>
+            <li>
+              Studied the behavior of container overlay network on Linux in
+              great technical detail, and researched ideas to optimize its
+              performance;
+            </li>
+            <li>
+              Modified the Linux kernel source code to implement and test
+              research ideas.
+            </li>
+          </ul>
+        </li>
+        <li class="mb-2">
+          <strong><a target="_blank" href="//docsumo.com">Docsumo</a></strong>
+          (Jul 2018—Dec 2019)
           <br><em>Data Scientist</em>
           <ul>
             <li>
@@ -163,7 +193,8 @@
           </ul>
         </li>
         <li class="mb-2">
-          <strong><a href="//lisnepal.com.np">LIS Nepal Pvt. Ltd.</a></strong> (October 2017—June 2018)
+          <strong><a target="_blank" href="//logicinfo.com">Logic Information Systems</a></strong>
+          (Oct 2017—Jun 2018)
           <br><em>Business Intelligence (BI) Developer</em>
           <ul>
             <li>Developed and optimized large-scale SQL queries;</li>
@@ -173,6 +204,29 @@
           </ul>
         </li>
       </ul>
+
+      <hr>
+
+      <header id="publications">
+        <h5><strong>Publications</strong></h5>
+        <ul>
+          <li>
+            <strong>M. Munikar</strong>, S. Shakya and A. Shrestha,
+            "Fine-grained Sentiment Classification using BERT,"
+            <i>2019
+            Artificial Intelligence for Transforming Business and Society
+            (AITB)</i>, Kathmandu, Nepal, 2019,
+            DOI: <a href="http://doi.org/10.1109/AITB48515.2019.8947435" target="_blank">10.1109/AITB48515.2019.8947435</a>
+          </li>
+          <li>
+            P. Dhakal, <strong>M. Munikar</strong> and B. Dahal, "One-Shot
+            Template Matching for Automatic Document Data Capture,” <i>2019
+            Artificial Intelligence for Transforming Business and Society
+            (AITB)</i>, Kathmandu, Nepal, 2019,
+            DOI: <a href="http://doi.org/10.1109/AITB48515.2019.8947440" target="_blank">10.1109/AITB48515.2019.8947440</a>
+          </li>
+        </ul>
+      </header>
     </div>
   </section>
 
