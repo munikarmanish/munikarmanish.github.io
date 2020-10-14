@@ -6,12 +6,3 @@ span.education-address {
   font-style: italic;
   color: gray;
 }
-
-.notice {
-  font-style: italic;
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
-  padding: 4px;
-  /* text-align: center; */
-}

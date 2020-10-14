@@ -83,12 +83,15 @@
 
   <section class="p-4">
     <div class="container">
-      <p class="notice">
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
         <span class="fa fa-flag" style="color:red"></span>
-        I'm actively looking for summer PhD internships. If you're interested,
+        &nbsp; I'm actively looking for summer PhD internships. If you're interested,
         please refer to
-        <a target="_blank" href="./manish-munikar-cv.pdf">my CV</a>.
-      </p>
+        <a target="_blank" href="./manish-munikar-cv.pdf" class="alert-link">my CV</a>.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <header>
         <h5><strong>About Me</strong></h5>
       </header>
@@ -208,7 +211,13 @@
       <hr>
 
       <header id="publications">
-        <h5><strong>Publications</strong></h5>
+        <h5>
+          <strong>
+            <a style="color:black" href="//scholar.google.com/citations?user=T2XIlhwAAAAJ" target="_blank">
+              Publications
+            </a>
+          </strong>
+        </h5>
         <ul>
           <li>
             <strong>M. Munikar</strong>, S. Shakya and A. Shrestha,
