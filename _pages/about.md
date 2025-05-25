@@ -22,13 +22,17 @@ I'm a Computer Science PhD candidate at the University of Texas at Arlington
 (supervised by [Dr. Jia Rao](https://ranger.uta.edu/~jrao)),
 researching on container network optimizations in Linux.
 I obtained my B.E. in Computer Engineering from Pulchowk Engineering Campus, Tribhuvan University, Nepal in 2017.
-<!--I am actively seeking a research scientist or software engineering role.-->
 
-**Interests**: operating systems, cloud/distributed systems, systems performance optimization, applied machine learning
+
+**Interests**: cloud/distributed systems, applied machine learning
 
 > 📢 I'm actively looking for full-time research scientist or software engineering roles.
 
 # 📝 Publications
+
+I have published 5 peer-reviewed research papers with a total of
+<a href='https://scholar.google.com/citations?user=T2XIlhwAAAAJ'><span id='total_cit'>300+</span> citations</a>.
+<a href='https://scholar.google.com/citations?user=T2XIlhwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&label=Citations"></a>
 
 - ![image](https://img.shields.io/badge/IPDPS-2023-blue?style=flat-square)
   J. Lei, <u>M. Munikar</u>, H. Lu and J. Rao,
