@@ -81,7 +81,7 @@ I have published 5 peer-reviewed research papers with a total of
 
 # 💬 Teaching
 - Worked as a Graduate Teaching Assistant (GTA) for the following courses:
-  - CSE 5306: Distributed Systems _(Spring 2025)_
+  - CSE 5306: Distributed Systems _(Spring 2025, Fall 2025)_
   - CSE 6363: Machine Learning _(Fall 2024)_
   - CSE 6331: Advanced Topics in Database Systems _(Spring 2024)_
   - CSE 2312: Computer Architecture _(Fall 2023)_
