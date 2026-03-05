@@ -20,13 +20,14 @@ redirect_from:
 # 👦 About
 I'm a Computer Science PhD candidate at the University of Texas at Arlington
 (supervised by [Dr. Jia Rao](https://ranger.uta.edu/~jrao)),
-researching on container network optimizations in Linux.
+specializing in the intersection of high-performance systems and ML,
+with multiple Amazon internships as well as multiple top-tier research publications.
+Currently, I'm exploring KV cache transfer optimizations for distributed LLM inference using cutting-edge NVIDIA SmartNICs and CXL technologies.
 I obtained my B.E. in Computer Engineering from Pulchowk Engineering Campus, Tribhuvan University, Nepal in 2017.
 
+**Interests**: cloud/distributed systems, applied ML, LLM inference, network systems, KV cache, CXL
 
-**Interests**: cloud/distributed systems, applied machine learning
-
-> 📢 I'm actively looking for full-time research scientist or software engineering roles.
+> 📢 I'm actively seeking full-time Research Scientist, Applied Scientist, ML Engineer, or Software Engineer roles.
 
 # 📝 Publications
 
@@ -81,6 +82,7 @@ I have published 5 peer-reviewed research papers with a total of
 
 # 💬 Teaching
 - Worked as a Graduate Teaching Assistant (GTA) for the following courses:
+  - CSE 3318: Data Structure & Algorithms _(Spring 2026)_
   - CSE 5306: Distributed Systems _(Spring 2025, Fall 2025)_
   - CSE 6363: Machine Learning _(Fall 2024)_
   - CSE 6331: Advanced Topics in Database Systems _(Spring 2024)_
